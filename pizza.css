@@ -1,0 +1,1432 @@
+body{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+    
+}
+/*font-family: 'Rock Salt', cursive;*/
+
+*,
+*before,
+*after{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin:0;
+}
+
+.container{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+/*---------------------------------*/
+/*Header*/
+.header{
+	width: 100%;
+	padding: 40px 0;
+
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+
+	color: white;
+}
+
+.header__inner{
+
+	display: flex;
+	justify-content: space-between;
+    align-items: center;/*Вот это 
+    именно делает nav по центру*/
+}
+
+/*--Nav--*/
+.nav{
+text-transform: uppercase;
+}
+
+.nav__link{
+	color: white;
+
+	text-decoration: none;
+	font-size: 20px;
+
+	margin-left: 35px;
+	display: inline-block;
+	vertical-align: top;
+
+	transition: color 0.2s;
+}
+
+.nav__link:hover{
+	color:  #F5A225;
+}
+
+
+/*Number*/
+.header__number{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+/*---------------------------------*/
+/*Intro*/
+.intro{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+    width: 100%;
+	height: 100vh;
+	background: url(img/back/back1.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.intro__inner{
+	width: 100%;
+	max-width: 690px;
+	margin: 0 auto;
+
+	text-align: center;
+
+	color: white;
+}
+
+.intro__title{
+	font-size: 96px;
+	margin-bottom: 40px;
+	line-height: 1.1;
+
+	margin-top: 50px;
+}
+
+.intro__soch{
+	color: #F5A225;
+}
+
+.intro__text{
+	font-size: 20px;
+	margin-bottom: 55px;
+}
+
+.intro__bot{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	padding: 12px 40px;
+	background: linear-gradient(263.29deg, #E58A00 39.46%, #FFCD82 149.21%, #FFB545 149.22%);
+	border-radius: 15px;
+
+}
+
+.intro__bot:hover{
+	background: linear-gradient(263.29deg, #FFB545 149.22% , #FFCD82 149.21%, #E58A00 39.46%);
+}
+
+/*---------------------------------*/
+/*Statistic*/
+.statistic{
+	background-color: #F5A225;
+	padding: 50px 0;
+	text-align: center;
+
+}
+
+.stat__inner{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.stat__item{
+	width: 25%;
+
+	flex-direction: column;
+    align-items: center;
+}
+
+.stat__icon{
+	margin-bottom: 30px;
+	height:150px;
+}
+
+.stat__title{
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.stat__text{
+	font-size: 16px;
+}
+
+
+
+/*---------------------------------*/
+/*Section 1*/
+
+.section{
+	padding: 30px 0;
+
+	color: white;
+	background: url(img/back/back2.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.section__pizza{
+	text-align: center;
+	font-size: 60px;
+	
+}
+
+.section__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.section__item {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    padding: 25px 0;
+}
+
+.section__img{
+	margin-bottom: 12px;
+}
+
+.section__title{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.section__text {
+   font-size: 16px;
+   margin-bottom: 13px;
+}
+
+.section__price {
+	background: #7CB600;
+	border-radius: 20px;
+	padding: 5px 15px;
+	font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.section__buy {
+	text-decoration: none;
+	color: white;
+
+	font-size: 17px;
+	border: 2px solid;
+	border-radius: 20px;
+	border-color: #7CB600;
+
+	padding: 8px 20px;
+
+	transition: 0.3s;
+}
+
+.section__buy:hover{
+	background:#7CB600; 
+}
+
+/*---------------------------------*/
+/*Section 1*//*Deliver*/
+.deliver{
+	padding: 40px 0;
+	background-color: #F5A225;
+}
+
+.deliver__inner{
+	text-align: center;
+}
+
+.deliver__title{
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+.deliver__text{
+	font-size: 18px;
+}
+
+.video__deliver{
+	width:500px;
+	height:350px;
+}
+
+/*---------------------------------*/
+/*Section 2*//*	Contact */
+.contact{
+	padding: 60px 0;
+	background: url(img/back/back3.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.contact__toptitle{
+	color: white;
+	text-align: center;
+	font-size: 60px;
+}
+
+.contact__inner{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact__item{
+	width: 50%;
+    align-items: center;
+	text-align: center;
+}
+
+.contact__item{
+	color: white;
+
+	flex: 1 1 0;
+	text-align: center;
+
+	width: 100%;
+	max-width: 385px;
+	padding: 0 80px;
+}
+
+.contact__title{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+input{
+width: 350px;
+height: 45px;
+border-radius: 15px;
+background-color: white;
+border:1px solid black;
+
+}
+
+button{
+	border-radius: 15px;
+	width: 350px;
+	height: 45px;
+	background-color:  #F5A225;
+	font-size: 20px;
+}
+
+button:hover{
+	background-color: #FF9900;
+}
+
+.contact__text{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.contact__number{
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.contact__tel{
+	font-size: 25px;
+	font-weight: 700;
+}
+
+/*	Social */
+.social__item{
+	padding: 0 15px;
+}
+
+/*coded*/
+.coded{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 60px;
+	color: white;
+}
+
+
+
+
+
+/*--------------------------------*/
+/*Media 1024px*/
+@media screen and (max-width: 1024px) {
+
+	.container{
+		width: 100%;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+/*TOP-главная страница*/
+  /*NAV*/
+	.nav__link{
+		font-size: 17px;
+	}
+
+	.header__number{
+		font-size: 17px;
+	}
+
+	.header__logo{
+		height: 60px;
+	}
+
+/*INTRO*/
+	.intro__inner{
+		width: 100%;
+		max-width: 600px;
+	}
+
+	.intro__title{
+		font-size: 80px;
+	}
+
+
+	.intro__text{
+		font-size: 16px;
+		margin-bottom: 55px;
+		line-height: 1.5;
+	}
+
+	.intro__bot{
+		font-size: 15px;
+	}
+
+
+/*statistic*/
+	.stat__title{
+		font-size: 17px;
+	}
+
+	.stat__text{
+		font-size: 14px;
+	}
+
+	.stat__icon{
+		height:130px;
+	}
+
+
+
+/*section- пицца*/
+	.section__pizza{
+		font-size: 50px;
+	}
+
+	.section__img{
+		height: 175px;
+	}
+
+	.section__title{
+		font-size: 20px;
+	}
+
+	.section__item {
+    	width: 50%;
+    }
+
+	.section__text{
+		font-size: 15px;
+		margin-bottom: 25px;
+
+		width: 350px;
+	}
+
+	.section__link{
+
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.section__price{
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+
+	.section__buy{
+		font-size: 14px;
+	}
+
+
+/*Section-Доставка*/
+	.deliver__title	{
+		font-size: 50px;
+	}
+
+	.deliver__text{
+		font-size: 16px;
+	}
+
+	.video__deliver{
+		height: 300px;
+		width: 450px;
+	}
+
+
+/*Contact*/
+	.contact__toptitle{
+	font-size: 50px;
+
+	}
+
+	.contact__title{
+	font-size: 25px;
+	}
+
+	input{
+		width: 300px;
+		height: 40px;
+	}
+
+	button{
+		border-radius: 15px;
+		width: 300px;
+		height: 40px;
+		font-size: 17px;
+	}
+
+	.contact__text{
+		font-size: 18px;
+	}
+
+	.contact__number{
+		font-size: 18px;
+	}
+
+	.contact__tel{
+		font-size: 20px;
+	}
+
+	.social__item{
+		height: 40px;
+	}
+
+
+}/*media 1024px */
+
+
+
+
+
+/*--------------------------------*/
+/*Media 992px*/
+@media screen and (max-width: 992px){
+
+	.container{
+		width: 100%;
+		max-width: 780px;
+	margin: 0 auto;
+	}
+
+/*TOP-главная страница*/
+  /*NAV*/
+	.nav__link{
+		font-size: 15px;
+	}
+
+	.header__number{
+		font-size: 16px;
+	}
+
+	.header__logo{
+		height: 55px;
+	}
+
+/*INTRO*/
+
+	.intro__inner{
+		width: 100%;
+		max-width: 550px;
+	}
+
+	.intro__title{
+		font-size: 70px;
+	}
+
+
+	.intro__text{
+		font-size: 16px;
+		margin-bottom: 55px;
+		line-height: 1.5;
+	}
+
+	.intro__bot{
+		font-size: 15px;
+	}
+
+
+/*statistic*/
+	.stat__title{
+		font-size: 16px;
+	}
+
+	.stat__text{
+		font-size: 14px;
+	}
+
+	.stat__icon{
+		height:110px;
+	}
+
+
+
+/*section- пицца*/
+	.section__pizza{
+		font-size: 40px;
+	}
+
+	.section__img{
+		height: 165px;
+	}
+
+	.section__title{
+		font-size: 18px;
+	}
+
+	.section__item {
+    	width: 50%;
+    }
+
+	.section__text{
+		font-size: 14px;
+		margin-bottom: 20px;
+
+		width: 330px;
+	}
+
+	.section__link{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.section__price{
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+
+	.section__buy{
+		font-size: 14px;
+	}
+
+
+/*Section-Доставка*/
+	.deliver__title	{
+		font-size: 40px;
+	}
+
+	.deliver__text{
+		font-size: 16px;
+	}
+
+	.video__deliver{
+		height: 280px;
+		width: 400px;
+	}
+
+
+/*Contact*/
+	.contact__toptitle{
+		font-size: 40px;
+	}
+
+	.contact__title{
+		font-size: 22px;
+	}
+
+	input{
+		width: 280px;
+		height: 35px;
+	}
+
+	button{
+		border-radius: 15px;
+		width: 280px;
+		height: 35px;
+		font-size: 16px;
+	}
+
+	.contact__text{
+		font-size: 17px;
+	}
+
+	.contact__number{
+		font-size: 17px;
+	}
+
+	.contact__tel{
+		font-size: 19px;
+	}
+
+	.social__item{
+		height: 35px;
+	}
+
+
+}/*Media 992*/
+
+
+
+/*--------------------------------*/
+/*Media 768px*//*Done*/
+@media screen and (max-width: 768px){
+
+	.container{
+		width: 100%;
+		max-width: 650px;
+		margin: 0 auto;
+	}
+
+/*TOP-главная страница*/
+  /*Nav*/
+	.nav{
+		display: none;
+	}
+
+	.header__call{
+		display: none;
+	}
+
+	.header__logo{
+		height: 40px;
+	}
+/*header*/
+	.intro__inner{
+		width: 100%;
+		max-width: 550px;
+	}
+
+	.intro__title{
+		font-size: 75px;
+		margin-bottom: 20px;
+	}
+
+
+	.intro__text{
+		font-size: 22px;
+		margin-bottom: 45px;
+		line-height: 1.5;
+	}
+
+	.intro__bot{
+		font-size: 22px;
+	}
+
+
+/*statistic*/
+	.stat__item{
+		width: 50%;
+		margin-bottom: 40px;
+	}
+
+	.stat__title{
+		font-size: 23px;
+	}
+
+	.stat__text{
+		font-size: 19px;
+	}
+
+	.stat__icon{
+		height:100px;
+		margin-bottom: 10px;
+	}
+
+
+
+/*section- пицца*/
+	.section__pizza{
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+
+	.section__img{
+		height: 155px;
+	}
+
+	.section__title{
+		font-size: 16px;
+	}
+
+	.section__item{
+    	width: 50%;
+    }
+
+	.section__text{
+		font-size: 15px;
+		margin-bottom: 20px;
+
+		width: 220px;
+	}
+
+	.section__link{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.section__price{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.section__buy{
+		font-size: 15px;
+	}
+
+
+/*Section-Доставка*/
+	.deliver__title	{
+		font-size: 40px;
+	}
+
+	.deliver__text{
+		font-size: 16px;
+	}
+
+	.video__deliver{
+		height: 250px;
+		width: 400px;
+	}
+
+
+/*Contact*/
+	.contact__inner{
+		text-align: center;
+	}
+	.contact__item{
+		width: 100%;
+		margin:0 auto;
+		margin-bottom: 20px;
+	}
+
+	.contact__toptitle{
+		font-size: 35px;
+		margin-bottom: 10px;
+
+	}
+
+	.contact__title{
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+
+	input{
+		width: 250px;
+		height: 30px;
+	}
+
+	button{
+		border-radius: 15px;
+		width: 250px;
+		height: 30px;
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.contact__text{
+		font-size: 16px;
+	}
+
+	.contact__number{
+		font-size: 16px;
+	}
+
+	.contact__tel{
+		font-size: 19px;
+	}
+
+	.social__item{
+		height: 32px;
+	}
+
+	.coded{
+		font-size: 17px;
+	}
+
+
+}/*Media 768px*/
+
+/*--------------------------------*/
+/*Media 540px*//*Done*/
+@media screen and (max-width: 540px){
+
+	.container{
+		width: 100%;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+/*TOP-главная страница*/
+  /*Nav*/
+	.nav{
+		display: none;
+	}
+
+	.header__call{
+		display: none;
+	}
+
+	.header__logo{
+		height: 40px;
+	}
+/*header*/
+	.intro__inner{
+		width: 100%;
+		max-width: 550px;
+	}
+
+	.intro__title{
+		font-size: 65px;
+		margin-bottom: 20px;
+	}
+
+
+	.intro__text{
+		font-size: 18px;
+		margin-bottom: 45px;
+		line-height: 1.5;
+	}
+
+	.intro__bot{
+		font-size: 20px;
+	}
+
+
+/*statistic*/
+	.stat__item{
+		width: 50%;
+		margin-bottom: 40px;
+	}
+
+	.stat__title{
+		font-size: 20px;
+	}
+
+	.stat__text{
+		font-size: 17px;
+	}
+
+	.stat__icon{
+		height:100px;
+		margin-bottom: 10px;
+	}
+
+
+
+/*section- пицца*/
+	.section__pizza{
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+
+	.section__img{
+		height: 155px;
+	}
+
+	.section__title{
+		font-size: 16px;
+	}
+
+	.section__item{
+    	width: 50%;
+    }
+
+	.section__text{
+		font-size: 15px;
+		margin-bottom: 20px;
+
+		width: 220px;
+	}
+
+	.section__link{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.section__price{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.section__buy{
+		font-size: 15px;
+	}
+
+
+/*Section-Доставка*/
+	.deliver__title	{
+		font-size: 40px;
+	}
+
+	.deliver__text{
+		font-size: 16px;
+	}
+
+	.video__deliver{
+		height: 250px;
+		width: 400px;
+	}
+
+
+/*Contact*/
+	.contact__inner{
+		text-align: center;
+	}
+	.contact__item{
+		width: 100%;
+		margin:0 auto;
+		margin-bottom: 20px;
+	}
+
+	.contact__toptitle{
+		font-size: 35px;
+		margin-bottom: 10px;
+
+	}
+
+	.contact__title{
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+
+	input{
+		width: 250px;
+		height: 30px;
+	}
+
+	button{
+		border-radius: 15px;
+		width: 250px;
+		height: 30px;
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.contact__text{
+		font-size: 16px;
+	}
+
+	.contact__number{
+		font-size: 16px;
+	}
+
+	.contact__tel{
+		font-size: 19px;
+	}
+
+	.social__item{
+		height: 32px;
+	}
+
+	.coded{
+		font-size: 17px;
+	}
+
+
+}/*Media 540px*/
+
+
+
+/*--------------------------------*/
+/*Media 480px*//*done*/
+@media screen and (max-width: 480px){
+
+	.container{
+		width: 100%;
+		max-width: 350px;
+		margin: 0 auto;
+	}
+
+/*TOP-главная страница*/
+  /*Nav*/
+	.nav__link{
+		font-size: 11px;
+		display: none;
+
+	}
+/*header*/
+	.header__call{
+		display: none;
+	}
+
+	.header__logo{
+		height: 40px;
+	}
+
+/*intro*/
+	.intro__inner{
+		width: 100%;
+		max-width: 330px;
+	}
+
+	.intro__title{
+		font-size: 45px;
+		margin-bottom: 17px;
+	}
+
+
+	.intro__text{
+		font-weight: 500;
+		font-size: 15px;
+		margin-bottom: 40px;
+		line-height: 1.4;
+		
+	}
+
+	.intro__bot{
+		font-size: 14px;
+	}
+
+
+/*statistic*/
+	.stat__item{
+		width: 100%;
+		border-bottom: 2px solid;
+		border-color: white;
+	}
+
+	.stat__item:last-child{
+		border-bottom: none;
+	}
+
+	.stat__title{
+		font-size: 17px;
+	}
+
+	.stat__text{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.stat__icon{
+		margin-top: 15px;
+		height:90px;
+	}
+
+
+
+/*section- пицца*/
+	.section__pizza{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	.section__img{
+		height: 150px;
+	}
+
+	.section__title{
+		font-size: 17px;
+	}
+
+	.section__item{
+    	width: 100%;
+    }
+
+	.section__text{
+		font-size: 14px;
+		margin-bottom: 20px;
+
+		width: 220px;
+	}
+
+	.section__link{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.section__price{
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+
+	.section__buy{
+		font-size: 15px;
+	}
+
+
+/*Section-Доставка*/
+	.deliver__title	{
+		font-size: 30px;
+	}
+
+	.deliver__text{
+		font-size: 15px;
+	}
+
+	.video__deliver{
+		height: 200px;
+		width: 300px;
+	}
+
+
+/*Contact*/
+	.contact__inner{
+		text-align: center;
+	}
+	.contact__item{
+		width: 100%;
+		margin:0 auto;
+		margin-bottom: 20px;
+	}
+
+	.contact__toptitle{
+		font-size: 30px;
+		margin-bottom: 10px;
+
+	}
+
+	.contact__title{
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+
+	input{
+		width: 180px;
+		height: 30px;
+	}
+
+	button{
+		border-radius: 15px;
+		width: 180px;
+		height: 30px;
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.contact__text{
+		font-size: 16px;
+	}
+
+	.contact__number{
+		font-size: 15px;
+	}
+
+	.contact__tel{
+		font-size: 18px;
+	}
+
+	.social__item{
+		height: 35px;
+	}
+
+	.coded{
+		font-size: 17px;
+	}
+
+
+}/*Media 480px*/
+
+
+
+
+/*--------------------------------*/
+/*Media 360px*//*done*/
+@media screen and (max-width: 360px){
+
+	.container{
+		width: 100%;
+		max-width: 250px;
+		margin: 0 auto;
+	}
+
+/*TOP-главная страница*/
+  /*Nav*/
+	.nav__link{
+		font-size: 11px;
+		display: none;
+
+	}
+/*header*/
+	.header__call{
+		display: none;
+	}
+
+	.header__logo{
+		height: 40px;
+	}
+
+/*intro*/
+	.intro__inner{
+		width: 100%;
+		max-width: 330px;
+	}
+
+	.intro__title{
+		font-size: 40px;
+		margin-bottom: 17px;
+	}
+
+
+	.intro__text{
+		font-weight: 500;
+		font-size: 14px;
+		margin-bottom: 40px;
+		line-height: 1.4;
+		
+	}
+
+	.intro__bot{
+		font-size: 14px;
+	}
+
+
+/*statistic*/
+	.stat__item{
+		width: 100%;
+		border-bottom: 2px solid;
+		border-color: white;
+	}
+
+	.stat__item:last-child{
+		border-bottom: none;
+	}
+
+	.stat__title{
+		font-size: 17px;
+	}
+
+	.stat__text{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.stat__icon{
+		margin-top: 15px;
+		height:90px;
+	}
+
+
+
+/*section- пицца*/
+	.section__pizza{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	.section__img{
+		height: 150px;
+	}
+
+	.section__title{
+		font-size: 17px;
+	}
+
+	.section__item{
+    	width: 100%;
+    }
+
+	.section__text{
+		font-size: 14px;
+		margin-bottom: 20px;
+
+		width: 220px;
+	}
+
+	.section__link{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.section__price{
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+
+	.section__buy{
+		font-size: 15px;
+	}
+
+
+/*Section-Доставка*/
+	.deliver__title	{
+		font-size: 30px;
+	}
+
+	.deliver__text{
+		font-size: 15px;
+	}
+
+	.video__deliver{
+		height: 190px;
+		width: 250px;
+	}
+
+
+/*Contact*/
+	.contact__inner{
+		text-align: center;
+	}
+	.contact__item{
+		width: 100%;
+		margin:0 auto;
+		margin-bottom: 20px;
+	}
+
+	.contact__toptitle{
+		font-size: 30px;
+		margin-bottom: 10px;
+
+	}
+
+	.contact__title{
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+
+	input{
+		width: 150px;
+		height: 30px;
+	}
+
+	button{
+		border-radius: 15px;
+		width: 150px;
+		height: 30px;
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.contact__text{
+		font-size: 15px;
+	}
+
+	.contact__number{
+		font-size: 14px;
+	}
+
+	.contact__tel{
+		font-size: 17px;
+	}
+
+	.social__item{
+		height: 30px;
+	}
+
+	.coded{
+		font-size: 16px;
+	}
+
+
+}/*Media 360px*/
